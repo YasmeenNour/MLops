@@ -7,5 +7,5 @@ lint:
 test:
 	python -m pytest -vv
 
-deploy:
-	uvicorn app:app
+deploy:     #fastapi filename #fastapi obejct
+	uvicorn api:fast_api
